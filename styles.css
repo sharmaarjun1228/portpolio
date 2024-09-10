@@ -1,0 +1,246 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding-top: 70px; /* To offset the fixed navbar */
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: #333;
+  }
+  
+  p {
+    color: #555;
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    color: #333 !important;
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #ffffff;
+  }
+  
+  .nav-link {
+    color: #555 !important;
+    transition: color 0.3s;
+  }
+  
+  .nav-link:hover {
+    color: #333 !important;
+  }
+  
+  /* Sidebar Styles */
+  #sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    background-color: #f8f9fa;
+    padding-top: 60px;
+    transition: 0.3s;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  #sidebar.active {
+    left: 0;
+  }
+  
+  #sidebar .nav-link {
+    color: #333;
+    padding: 10px 15px;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  #sidebar .nav-link:hover {
+    background-color: #ddd;
+    color: #000;
+  }
+  
+  /* Content Styles */
+  #content {
+    transition: margin-left .3s;
+    padding: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    #content.active {
+      margin-left: 250px;
+    }
+  }
+  
+  /* Header Section */
+  header {
+    background: wheat;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  header img {
+    border: 5px solid #fff;
+  }
+  
+  /* About Me Section */
+  #about {
+    background-color: #fff;
+    padding: 80px 0;
+  }
+  
+  #about p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #444;
+  }
+  
+  /* Projects Section */
+  #projects {
+    background-color: #f7f7f7;
+    padding: 80px 0;
+  }
+  
+  .nav-tabs .nav-link {
+    color: #555;
+  }
+  
+  .nav-tabs .nav-link.active {
+    background-color: #333;
+    color: #fff;
+    border: none;
+  }
+  
+  .project-card {
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    padding-top: 10px;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Education Section */
+  #education {
+    background-color: #fff;
+    padding: 80px 0;
+  }
+  
+  .education-card {
+    background-color: #efebeb;
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .education-card:hover {
+    transform: translateY(-15px);
+  }
+  
+  .education-institution-logo {
+    width: 100px;
+    height: auto;
+    margin-right: 15px;
+  }
+  
+  .education-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Certificates Section */
+  #certificates {
+    background-color: #f7f7f7;
+    padding: 80px 0;
+  }
+  
+  .carousel-item img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  .carousel-caption p {
+    font-style: italic;
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Skills Section */
+  #skills {
+    background-color: #fff;
+    padding: 80px 0;
+  }
+  
+  #skills img {
+    margin: 10px;
+  }
+  
+  /* Contact Section */
+  #contact {
+    background-color: #f7f7f7;
+    padding: 80px 0;
+  }
+  
+  #contact ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #contact ul li {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  /* Button Styles */
+  .more-btn {
+    display: block;
+    margin: 20px auto;
+    background-color: #ffcc00;
+    color: #121212;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .more-btn:hover {
+    background-color: #e6b800;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .education-card {
+      margin-bottom: 20px;
+    }
+  
+    .education-institution-logo {
+      max-width: 80px;
+    }
+  
+    .carousel-item img {
+      max-width: 80%;
+    }
+  }
+  

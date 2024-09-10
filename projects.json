@@ -1,0 +1,156 @@
+[
+    {
+        "serial": 6,
+        "title": "AirBnb-EDA",
+        "description": "No description provided",
+        "category": "EDA",
+        "link": "https://github.com/sharmaarjun1228/AirBnb-EDA"
+    },
+    {
+        "serial": 7,
+        "title": "arjunsharmaResume",
+        "description": "my resume webpage",
+        "category": "",
+        "link": "https://github.com/sharmaarjun1228/arjunsharmaResume"
+    },
+    {
+        "serial": 11,
+        "title": "arjun_portpolio-",
+        "description": "No description provided",
+        "category": "powerBI",
+        "link": "https://github.com/sharmaarjun1228/arjun_portpolio-"
+    },
+    {
+        "serial": 4,
+        "title": "Arjun_sharma_portpolio",
+        "description": "No description provided",
+        "category": "N/A",
+        "link": "https://github.com/sharmaarjun1228/Arjun_sharma_portpolio"
+    },
+    {
+        "serial": 5,
+        "title": "capstone_project_introductio_to_computer_programing",
+        "description": "Almabetter first capstone project ",
+        "category": "EDA",
+        "link": "https://github.com/sharmaarjun1228/capstone_project_introductio_to_computer_programing"
+    },
+    {
+        "serial": 6,
+        "title": "car_sale_analysis",
+        "description": "this is the car sale analysis report ",
+        "category": "tablue",
+        "link": "https://github.com/sharmaarjun1228/car_sale_analysis"
+    },
+    {
+        "serial": 1,
+        "title": "Data_Science_CapstoneProject_coursera",
+        "description": "SpaceX-Falcon-9-first-stage-Landing-Prediction In this repository, we will predict if the Falcon 9 first stage will land successfully. If we can determine if the first stage will land, we can determine the cost of a launch. This information can be used if an alternate company wants to bid against SpaceX for a rocket launch.",
+        "category": "EDA",
+        "link": "https://github.com/sharmaarjun1228/Data_Science_CapstoneProject_coursera"
+    },
+    {
+        "serial": 8,
+        "title": "distinctdata",
+        "description": "No description provided",
+        "category": "N/A",
+        "link": "https://github.com/sharmaarjun1228/distinctdata"
+    },
+    {
+        "serial": 5,
+        "title": "flipkart_web_scraping",
+        "description": "This Python script allows users to scrape product details from Flipkart's search results. It's designed to extract information about products, such as their names and prices, and save this information into a CSV file. This tool can be useful for price comparison, market analysis, or just keeping track of product prices over time.",
+        "category": "EDA",
+        "link": "https://github.com/sharmaarjun1228/flipkart_web_scraping"
+    },
+    {
+        "serial": 10,
+        "title": "github-slideshow",
+        "description": "A robot powered training repository :robot:",
+        "category": "N/A",
+        "link": "https://github.com/sharmaarjun1228/github-slideshow"
+    },
+    {
+        "serial": 4,
+        "title": "Justwatch_webscrapping_using_python",
+        "description": "No description provided",
+        "category": "N/A",
+        "link": "https://github.com/sharmaarjun1228/Justwatch_webscrapping_using_python"
+    },
+    {
+        "serial": 3,
+        "title": "loksabha",
+        "description": "No description provided",
+        "category": "N/A",
+        "link": "https://github.com/sharmaarjun1228/loksabha"
+    },
+    {
+        "serial": 13,
+        "title": "mca_login",
+        "description": "No description provided",
+        "category": "N/A",
+        "link": "https://github.com/sharmaarjun1228/mca_login"
+    },
+    {
+        "serial": 14,
+        "title": "mca_startup",
+        "description": "No description provided",
+        "category": "N/A",
+        "link": "https://github.com/sharmaarjun1228/mca_startup"
+    },
+    {
+        "serial": 15,
+        "title": "memic",
+        "description": "mimic cv ",
+        "category": "N/A",
+        "link": "https://github.com/sharmaarjun1228/memic"
+    },
+    {
+        "serial": 16,
+        "title": "NoteTaker-for-Student",
+        "description": "No description provided",
+        "category": "N/A",
+        "link": "https://github.com/sharmaarjun1228/NoteTaker-for-Student"
+    },
+    {
+        "serial": 17,
+        "title": "no_queue-",
+        "description": "No description provided",
+        "category": "N/A",
+        "link": "https://github.com/sharmaarjun1228/no_queue-"
+    },
+    {
+        "serial": 2,
+        "title": "Playstore_EDA_capstone_project",
+        "description": "No description provided",
+        "category": "N/A",
+        "link": "https://github.com/sharmaarjun1228/Playstore_EDA_capstone_project"
+    },
+    {
+        "serial": 19,
+        "title": "sharmaarjun1228",
+        "description": "Welcome",
+        "category": "N/A",
+        "link": "https://github.com/sharmaarjun1228/sharmaarjun1228"
+    },
+    {
+        "serial": 20,
+        "title": "shortnotes",
+        "description": "The Note Taker app is a Tkinter-based desktop application that allows users to take notes, save them, and export them in various formats like text, HTML, PDF, and Markdown. If you have any ideas or enhancements you'd like to discuss for that app, please feel free to share them!",
+        "category": "N/A",
+        "link": "https://github.com/sharmaarjun1228/shortnotes"
+    },
+    {
+        "serial": 21,
+        "title": "Smartwatch_DA_python",
+        "description": "No description provided",
+        "category": "N/A",
+        "link": "https://github.com/sharmaarjun1228/Smartwatch_DA_python"
+    },
+    {
+        "serial": 22,
+        "title": "youtube_channel",
+        "description": "\ud83d\udd0d Using Python web scraping, I collected and analyzed data from Sandeep Maheshwari's channel, uncovering trends, patterns, and valuable information. Here are some key takeaways:    ",
+        "category": "N/A",
+        "link": "https://github.com/sharmaarjun1228/youtube_channel"
+    }
+]
