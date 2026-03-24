@@ -217,40 +217,37 @@
     </div>
   </section>
 
-  <section id="projects" class="bg-white">
+<section id="projects" class="bg-white">
     <div class="container">
       <div class="text-center">
-        <h2 class="section-title">Featured Projects</h2>
+        <h2 class="section-title">GitHub Projects</h2>
       </div>
       
-      <div class="row mt-4">
-        <div class="col-md-4 mb-4">
-          <div class="card h-100 p-3">
-            <div class="card-body">
-              <h5 class="card-title fw-bold">Agriculture Input Quality Control</h5>
-              <h6 class="card-subtitle mb-3 text-muted">Power BI Dashboard</h6>
-              <p class="card-text text-secondary">Designed and implemented a comprehensive dashboard to monitor and analyze the quality metrics of agricultural inputs, facilitating data-backed decisions.</p>
-            </div>
-          </div>
+      <ul class="nav nav-pills justify-content-center mb-4" id="projectTabs" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="tab-all" data-bs-toggle="pill" data-category="all" type="button" role="tab">All</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="tab-eda" data-bs-toggle="pill" data-category="EDA" type="button" role="tab">EDA</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="tab-powerbi" data-bs-toggle="pill" data-category="powerBI" type="button" role="tab">Power BI</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="tab-tableau" data-bs-toggle="pill" data-category="tablue" type="button" role="tab">Tableau</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="tab-other" data-bs-toggle="pill" data-category="Other" type="button" role="tab">Other / Python</button>
+        </li>
+      </ul>
+
+      <div class="row mt-4" id="projects-container">
         </div>
-        <div class="col-md-4 mb-4">
-          <div class="card h-100 p-3">
-            <div class="card-body">
-              <h5 class="card-title fw-bold">Role-Based Analytics Portal</h5>
-              <h6 class="card-subtitle mb-3 text-muted">Python / Flask</h6>
-              <p class="card-text text-secondary">Developed a secure web portal utilizing Flask to manage and distribute role-based access to various organizational Power BI reports.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 mb-4">
-          <div class="card h-100 p-3">
-            <div class="card-body">
-              <h5 class="card-title fw-bold">Pesticide Quality Prediction</h5>
-              <h6 class="card-subtitle mb-3 text-muted">Machine Learning</h6>
-              <p class="card-text text-secondary">Built predictive models to forecast pesticide efficacy and quality, leveraging historical data to improve safety and agricultural yield.</p>
-            </div>
-          </div>
-        </div>
+
+      <div class="text-center mt-4">
+        <button id="show-more-btn" class="btn btn-outline-primary px-4 py-2 fw-bold shadow-sm" style="display: none; border-radius: 30px;">
+          Show More Projects <i class="fas fa-chevron-down ms-1"></i>
+        </button>
       </div>
     </div>
   </section>
@@ -264,26 +261,35 @@
         <div class="col-md-8">
           
           <div class="card mb-4 p-3 border-start border-primary border-4">
-            <div class="card-body">
-              <h5 class="fw-bold mb-1">Full Stack Data Science and AI</h5>
-              <h6 class="text-primary mb-2">AlmaBetter & E&ICT Indian Institute of Technology, Guwahati</h6>
-              <p class="text-muted small mb-0">Extensive program focusing on advanced machine learning, data architecture, and full-stack implementation.</p>
+            <div class="card-body d-flex align-items-center">
+              <img src="alma.jpeg" alt="AlmaBetter Logo" class="rounded-circle me-4 shadow-sm" style="width: 70px; height: 70px; object-fit: cover;">
+              <div>
+                <h5 class="fw-bold mb-1">Full Stack Data Science and AI</h5>
+                <h6 class="text-primary mb-2">AlmaBetter & E&ICT Indian Institute of Technology, Guwahati</h6>
+                <p class="text-muted small mb-0">Extensive program focusing on advanced machine learning, data architecture, and full-stack implementation.</p>
+              </div>
             </div>
           </div>
 
           <div class="card mb-4 p-3 border-start border-primary border-4">
-            <div class="card-body">
-              <h5 class="fw-bold mb-1">Master of Computer Application</h5>
-              <h6 class="text-primary mb-2">University Institute Of Technology Bhopal</h6>
-              <p class="text-muted small mb-0">Graduated: 2022 | Focused on data analysis, software engineering, and core computing concepts.</p>
+            <div class="card-body d-flex align-items-center">
+              <img src="bark.jpeg" alt="UIT Logo" class="rounded-circle me-4 shadow-sm" style="width: 70px; height: 70px; object-fit: cover;">
+              <div>
+                <h5 class="fw-bold mb-1">Master of Computer Application</h5>
+                <h6 class="text-primary mb-2">University Institute Of Technology Bhopal</h6>
+                <p class="text-muted small mb-0">Graduated: 2022 | Focused on data analysis, software engineering, and core computing concepts.</p>
+              </div>
             </div>
           </div>
 
           <div class="card mb-4 p-3 border-start border-primary border-4">
-            <div class="card-body">
-              <h5 class="fw-bold mb-1">Bachelor of Science (Computer Science)</h5>
-              <h6 class="text-primary mb-2">Barkatullah University Bhopal</h6>
-              <p class="text-muted small mb-0">Graduated: 2020 | Foundations of algorithms, systems architecture, and database management.</p>
+            <div class="card-body d-flex align-items-center">
+              <img src="uni.jpeg" alt="Barkatullah University Logo" class="rounded-circle me-4 shadow-sm" style="width: 70px; height: 70px; object-fit: cover;">
+              <div>
+                <h5 class="fw-bold mb-1">Bachelor of Science (Computer Science)</h5>
+                <h6 class="text-primary mb-2">Barkatullah University Bhopal</h6>
+                <p class="text-muted small mb-0">Graduated: 2020 | Foundations of algorithms, systems architecture, and database management.</p>
+              </div>
             </div>
           </div>
 
@@ -291,6 +297,8 @@
       </div>
     </div>
   </section>
+
+
 
   <section id="contact" class="bg-white">
     <div class="container text-center">
@@ -324,5 +332,116 @@
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    // Your exact JSON Data
+    const rawProjectsData = [
+        { "serial": 6, "title": "AirBnb-EDA", "description": "No description provided", "category": "EDA", "link": "https://github.com/sharmaarjun1228/AirBnb-EDA" },
+        { "serial": 7, "title": "arjunsharmaResume", "description": "my resume webpage", "category": "", "link": "https://github.com/sharmaarjun1228/arjunsharmaResume" },
+        { "serial": 11, "title": "arjun_portpolio-", "description": "No description provided", "category": "powerBI", "link": "https://github.com/sharmaarjun1228/arjun_portpolio-" },
+        { "serial": 4, "title": "Arjun_sharma_portpolio", "description": "No description provided", "category": "N/A", "link": "https://github.com/sharmaarjun1228/Arjun_sharma_portpolio" },
+        { "serial": 5, "title": "capstone_project_introductio_to_computer_programing", "description": "Almabetter first capstone project ", "category": "EDA", "link": "https://github.com/sharmaarjun1228/capstone_project_introductio_to_computer_programing" },
+        { "serial": 6, "title": "car_sale_analysis", "description": "this is the car sale analysis report ", "category": "tablue", "link": "https://github.com/sharmaarjun1228/car_sale_analysis" },
+        { "serial": 1, "title": "Data_Science_CapstoneProject_coursera", "description": "SpaceX-Falcon-9-first-stage-Landing-Prediction In this repository, we will predict if the Falcon 9 first stage will land successfully...", "category": "EDA", "link": "https://github.com/sharmaarjun1228/Data_Science_CapstoneProject_coursera" },
+        { "serial": 8, "title": "distinctdata", "description": "No description provided", "category": "N/A", "link": "https://github.com/sharmaarjun1228/distinctdata" },
+        { "serial": 5, "title": "flipkart_web_scraping", "description": "This Python script allows users to scrape product details from Flipkart's search results...", "category": "EDA", "link": "https://github.com/sharmaarjun1228/flipkart_web_scraping" },
+        { "serial": 10, "title": "github-slideshow", "description": "A robot powered training repository :robot:", "category": "N/A", "link": "https://github.com/sharmaarjun1228/github-slideshow" },
+        { "serial": 4, "title": "Justwatch_webscrapping_using_python", "description": "No description provided", "category": "N/A", "link": "https://github.com/sharmaarjun1228/Justwatch_webscrapping_using_python" },
+        { "serial": 3, "title": "loksabha", "description": "No description provided", "category": "N/A", "link": "https://github.com/sharmaarjun1228/loksabha" },
+        { "serial": 13, "title": "mca_login", "description": "No description provided", "category": "N/A", "link": "https://github.com/sharmaarjun1228/mca_login" },
+        { "serial": 14, "title": "mca_startup", "description": "No description provided", "category": "N/A", "link": "https://github.com/sharmaarjun1228/mca_startup" },
+        { "serial": 15, "title": "memic", "description": "mimic cv ", "category": "N/A", "link": "https://github.com/sharmaarjun1228/memic" },
+        { "serial": 16, "title": "NoteTaker-for-Student", "description": "No description provided", "category": "N/A", "link": "https://github.com/sharmaarjun1228/NoteTaker-for-Student" },
+        { "serial": 17, "title": "no_queue-", "description": "No description provided", "category": "N/A", "link": "https://github.com/sharmaarjun1228/no_queue-" },
+        { "serial": 2, "title": "Playstore_EDA_capstone_project", "description": "No description provided", "category": "N/A", "link": "https://github.com/sharmaarjun1228/Playstore_EDA_capstone_project" },
+        { "serial": 19, "title": "sharmaarjun1228", "description": "Welcome", "category": "N/A", "link": "https://github.com/sharmaarjun1228/sharmaarjun1228" },
+        { "serial": 20, "title": "shortnotes", "description": "The Note Taker app is a Tkinter-based desktop application that allows users to take notes...", "category": "N/A", "link": "https://github.com/sharmaarjun1228/shortnotes" },
+        { "serial": 21, "title": "Smartwatch_DA_python", "description": "No description provided", "category": "N/A", "link": "https://github.com/sharmaarjun1228/Smartwatch_DA_python" },
+        { "serial": 22, "title": "youtube_channel", "description": "Using Python web scraping, I collected and analyzed data from Sandeep Maheshwari's channel...", "category": "N/A", "link": "https://github.com/sharmaarjun1228/youtube_channel" }
+    ];
+
+    // Map categories to cleaner versions for the tabs
+    const projectsData = rawProjectsData.map(project => {
+        let cleanCategory = project.category;
+        if (cleanCategory === "N/A" || cleanCategory === "") cleanCategory = "Other";
+        let cleanTitle = project.title.replace(/[_-]/g, ' ');
+        let cleanDescription = project.description === "No description provided" 
+            ? "Explore the code and implementation details in the GitHub repository." 
+            : project.description;
+
+        return { ...project, category: cleanCategory, title: cleanTitle, description: cleanDescription };
+    });
+
+    // Pagination Variables
+    let currentCategory = 'all';
+    let visibleCount = 6; // 3 cards per row on desktop = 6 cards for 2 rows
+    const itemsPerPage = 6; 
+
+    const projectsContainer = document.getElementById('projects-container');
+    const showMoreBtn = document.getElementById('show-more-btn');
+    const tabs = document.querySelectorAll('#projectTabs .nav-link');
+
+    // Function to render projects
+    function renderProjects() {
+      projectsContainer.innerHTML = ''; // Clear current
+      
+      // Filter based on selected tab
+      const filteredProjects = currentCategory === 'all' 
+        ? projectsData 
+        : projectsData.filter(project => project.category === currentCategory);
+
+      // Slice array to only show the 'visibleCount' amount
+      const projectsToShow = filteredProjects.slice(0, visibleCount);
+
+      // Generate HTML for visible projects
+      projectsToShow.forEach(project => {
+        const projectHTML = `
+          <div class="col-md-6 col-lg-4 mb-4 animate__animated animate__fadeIn">
+            <div class="card h-100 p-3 shadow-sm">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title fw-bold text-capitalize">${project.title}</h5>
+                <span class="badge bg-primary mb-3 align-self-start">${project.category === 'Other' ? 'Python/Misc' : project.category}</span>
+                <p class="card-text text-secondary flex-grow-1 small">${project.description.substring(0, 120)}${project.description.length > 120 ? '...' : ''}</p>
+                <a href="${project.link}" target="_blank" class="btn btn-outline-dark btn-sm mt-3 w-100">
+                  <i class="fab fa-github me-1"></i> View Repository
+                </a>
+              </div>
+            </div>
+          </div>
+        `;
+        projectsContainer.insertAdjacentHTML('beforeend', projectHTML);
+      });
+
+      // Handle "Show More" button visibility
+      if (visibleCount >= filteredProjects.length) {
+        showMoreBtn.style.display = 'none'; // Hide if all items are shown
+      } else {
+        showMoreBtn.style.display = 'inline-block'; // Show if more items exist
+      }
+    }
+
+    // Event listener for "Show More" button
+    showMoreBtn.addEventListener('click', () => {
+      visibleCount += itemsPerPage; // Add 6 more to the limit
+      renderProjects(); // Re-render the grid
+    });
+
+    // Event listeners for tabs
+    tabs.forEach(tab => {
+      tab.addEventListener('click', (e) => {
+        // Update styling
+        tabs.forEach(t => t.classList.remove('active'));
+        e.target.classList.add('active');
+        
+        // Update category and reset pagination
+        currentCategory = e.target.getAttribute('data-category');
+        visibleCount = 6; // Reset back to 2 rows when changing tabs
+        
+        renderProjects();
+      });
+    });
+
+    // Initial render on page load
+    renderProjects();
+  </script>
 </body>
 </html>
